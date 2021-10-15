@@ -1,0 +1,24 @@
+{
+  "name": "starting-with-elm",
+  "version": "1.0.0",
+  "description": "An electron app woth Elm",
+  "main": "webpack-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tikal86/elm-electron-webpack.git"
+  },
+  "keywords": [
+    "electron",
+    "elm",
+    "webpack"
+  ],
+  "author": "Andre Hogenkamp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tikal86/elm-electron-webpack/issues"
+  },
+  "homepage": "https://github.com/tikal86/elm-electron-webpack#readme"
+}
