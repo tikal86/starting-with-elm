@@ -1,14 +1,15 @@
 {
   "name": "starting-with-elm",
   "version": "1.0.0",
-  "description": "An electron app woth Elm",
+  "description": "An electron app with Elm",
   "main": "webpack-config.js",
   "scripts": {
+    "start": "electron main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tikal86/elm-electron-webpack.git"
+    "url": "https://github.com/tikal86/elm-electron-webpack.git"
   },
   "keywords": [
     "electron",
