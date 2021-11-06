@@ -9,15 +9,16 @@ const isProduction = process.env.NODE_ENV == 'production';
 
 const stylesHandler = isProduction ? MiniCssExtractPlugin.loader : 'style-loader';
 
-const elmSource = __dirname + '/src/elm/';
+const elmSource = __dirname;
 
 const config = {
     entry: __dirname + '/src/static/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
+        filename: 'bundle.js'
     },
     devServer: {
-            open: true,
+        open: true,
         host: 'localhost',
     },
     plugins: [
