@@ -5,6 +5,10 @@
   "private": true,
   "scripts": {
     "start": "electron main.js",
+    "electron": "elm make src/elm/Main.elm --output src/static/bundle.js && electron main.js",
+    "reactor": "elm reactor",
+    "build": "elm make src/elm/Main.elm --output src/static/bundle.js",
+    "elm": "elm reactor & firefox http://localhost:8000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
