@@ -16,3 +16,14 @@ git clone https://github.com/tikal86/starting-with-elm.git
 npm install
 npm run electron
 ```
+If you change the Elm code do
+```bash
+npm reactor
+```
+To see if it is working,
+
+If it is working do
+```bash
+npm run electron
+```
+To see it in electron
